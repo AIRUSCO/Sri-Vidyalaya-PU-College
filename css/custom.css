@@ -733,3 +733,323 @@ body {
 .pogoSlider {
     margin-top: 20px; /* adjust: 20px–40px as needed */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Site-wide spacing cleanup */
+section,
+.section,
+.layout_padding,
+.layout_padding_2,
+.service-detail-section,
+.about-section,
+.full-width-content,
+.inner_banner,
+.text_align_center,
+.container > .row {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Reduce section vertical padding on all pages */
+.section,
+.layout_padding,
+.layout_padding_2,
+.service-detail-section,
+.about-section,
+.full-width-content,
+.text_align_center.layout_padding_2 {
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+}
+
+/* Keep banner tighter without crushing it */
+.inner_banner {
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+}
+
+/* Tighten headings */
+.heading_main,
+.heading_main h1,
+.heading_main h2,
+.heading_main h3,
+.section h1,
+.section h2,
+.section h3,
+section h1,
+section h2,
+section h3 {
+    margin-top: 0 !important;
+    margin-bottom: 18px !important;
+}
+
+/* Tighten paragraphs */
+p,
+.section p,
+.about-content p,
+.full-width-content p {
+    margin-bottom: 14px !important;
+}
+
+/* Tighten image/content rows */
+.row.align-items-center,
+.about-image-col,
+.about-content,
+.service-detail-section .row {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+/* Tighten list/card sections */
+.facility-section,
+.career-section,
+.academic-section,
+.why-choose-section,
+.mission-grid,
+.vision-content,
+.facility-list,
+.career-list,
+.academic-list,
+.feature-list {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.facility-list li,
+.career-list li,
+.academic-list li,
+.feature-list li,
+.mission-card {
+    margin-bottom: 12px !important;
+}
+
+/* Contact/social card spacing */
+.contact-info,
+.contact-info-section,
+.social-box,
+.social-icons-section {
+    margin-top: 0 !important;
+    margin-bottom: 25px !important;
+}
+
+/* Footer spacing */
+.footer-box {
+    margin-top: 0 !important;
+    padding-top: 25px !important;
+}
+
+/* Mobile spacing */
+@media (max-width: 767px) {
+    .section,
+    .layout_padding,
+    .layout_padding_2,
+    .service-detail-section,
+    .about-section,
+    .full-width-content {
+        padding-top: 24px !important;
+        padding-bottom: 24px !important;
+    }
+
+    .inner_banner {
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+    }
+}
+
+/* Remove large gaps on About/content pages */
+#inner_page .section,
+#inner_page .layout_padding,
+#inner_page .layout_padding_2 {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+#inner_page .about-section,
+#inner_page .full-width-content,
+#inner_page .about-content,
+#inner_page .about-image-col {
+    margin-top: 0 !important;
+    margin-bottom: 15px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#inner_page .full-width-content p,
+#inner_page .about-content p {
+    margin-bottom: 12px !important;
+}
+
+#inner_page .row {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Reduce gap before section headings like OUR VISION */
+#inner_page .heading_main,
+#inner_page .heading_main h3,
+#inner_page .vision-content,
+#inner_page .mission-grid {
+    margin-top: 0 !important;
+    margin-bottom: 16px !important;
+    padding-top: 0 !important;
+}
+
+/* If there is still too much blank space before OUR VISION */
+#inner_page .full-width-content + .section,
+#inner_page .section + .section {
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+}
+#inner_page .section.layout_padding_2 {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+
+/* 
+mobile */
+/* Mobile-friendly header/contact bar */
+@media (max-width: 767px) {
+    .first-nav_contact {
+        height: auto !important;
+        min-height: unset !important;
+        padding: 6px 8px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 6px !important;
+        overflow: visible !important;
+    }
+
+    .first-nav_contact .left,
+    .first-nav_contact .right {
+        width: 100% !important;
+        float: none !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .first-nav_contact ul {
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 8px !important;
+    }
+
+    .first-nav_contact ul li {
+        float: none !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        margin: 0 !important;
+        list-style: none !important;
+    }
+
+    .first-nav_contact .left ul li a,
+    .first-nav_contact .right ul li a {
+        float: none !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 5px !important;
+        font-size: 12px !important;
+        line-height: 1.2 !important;
+        padding: 2px 4px !important;
+        color: #fff !important;
+    }
+
+    .first-nav_contact-icon,
+    .first-nav_contact-icon img,
+    div.left span.first-nav_contact-icon img,
+    span.first-nav_contact-icon img {
+        float: none !important;
+        width: 18px !important;
+        height: 18px !important;
+        max-width: 18px !important;
+        object-fit: contain !important;
+    }
+
+    .first-nav_contact .right {
+        gap: 8px !important;
+    }
+
+    .first-nav_contact .right .apply-btn-ul {
+        margin: 0 !important;
+        order: 1;
+    }
+
+    .first-nav_contact .right > ul:not(.apply-btn-ul) {
+        order: 2;
+    }
+
+    #apl-btn {
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: auto !important;
+        min-height: 28px !important;
+        padding: 6px 18px !important;
+        border-radius: 999px !important;
+        font-size: 11px !important;
+        font-weight: 700 !important;
+        background: #fff !important;
+        color: #285DA2 !important;
+        white-space: nowrap !important;
+    }
+
+    .navbar.header-nav {
+        padding: 8px 0 !important;
+    }
+
+    .navbar .navbar-brand img {
+        height: 48px !important;
+        max-height: 48px !important;
+        width: auto !important;
+    }
+
+    .top-header #navbar-wd {
+        padding-right: 0 !important;
+    }
+
+    .top-header .navbar .navbar-collapse ul li a {
+        text-align: center !important;
+        padding: 9px 15px !important;
+        font-size: 13px !important;
+    }
+}
+@media (max-width: 420px) {
+    .first-nav_contact .left ul {
+        flex-direction: column !important;
+        gap: 4px !important;
+    }
+
+    .first-nav_contact .right ul {
+        gap: 10px !important;
+    }
+
+    .first-nav_contact .left ul li a {
+        font-size: 11px !important;
+    }
+}
