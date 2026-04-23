@@ -1,0 +1,32 @@
+# Strip tracking parameters from all URLs
+RewriteCond %{QUERY_STRING} trk= [NC]
+RewriteRule ^(.*)$ /$1? [R=301,L]
+
+# Redirect /index.html to /
+RewriteCond %{THE_REQUEST} /index\.html
+RewriteRule ^index\.html$ https://vasavebusiness.com/ [R=301,L]
+
+# Optional: Redirect other .html to without extension if needed
+# But since links are cleaned, and assuming server handles it, or add more rules
+
+# Redirect /contact.html to /contact
+RewriteCond %{THE_REQUEST} /contact\.html
+RewriteRule ^contact\.html$ https://vasavebusiness.com/contact [R=301,L]
+
+# Similarly for others
+RewriteCond %{THE_REQUEST} /services\.html
+RewriteRule ^services\.html$ https://vasavebusiness.com/services [R=301,L]
+
+RewriteCond %{THE_REQUEST} /about\.html
+RewriteRule ^about\.html$ https://vasavebusiness.com/about [R=301,L]
+
+# Redirect parameter URLs to clean URLs
+RewriteCond %{QUERY_STRING} ^cat= [OR]
+RewriteCond %{QUERY_STRING} ^m= [OR]
+RewriteCond %{QUERY_STRING} ^p= [OR]
+RewriteCond %{QUERY_STRING} ^page_id=
+RewriteRule ^$ /? [R=301,L]
+
+# Strip all remaining query parameters from any URL to prevent duplicates
+RewriteCond %{QUERY_STRING} .+
+RewriteRule ^(.*)$ /$1? [R=301,L]
