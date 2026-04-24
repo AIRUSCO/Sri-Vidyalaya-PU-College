@@ -877,7 +877,12 @@ p,
         padding-bottom: 35px !important;
     }
 }
-
+/* FORCE FIX BANNER HEIGHT */
+.inner_banner,
+.inner_banner.layout_padding,
+.inner_banner.layout_padding_2 {
+    padding: 15px 0 !important;
+}
 /* Remove large gaps on About/content pages */
 #inner_page .section,
 #inner_page .layout_padding,
