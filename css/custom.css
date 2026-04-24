@@ -777,8 +777,8 @@ section,
 .about-section,
 .full-width-content,
 .text_align_center.layout_padding_2 {
-    padding-top: 35px !important;
-    padding-bottom: 35px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 
 /* Keep banner tighter without crushing it */
