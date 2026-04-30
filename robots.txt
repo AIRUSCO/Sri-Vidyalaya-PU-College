@@ -17,7 +17,7 @@ Allow: /services/infrastructure/kaspersky.html
 Allow: /services/cybersecurity.html
 Allow: /services/consultancy.html
 Allow: /uk-customs.html
-Allow: /cookies-policy.pdf
+Allow: /cookies_policy_svpu.pdf
 Allow: /privacy-policy.pdf
 Allow: /privacy-policies.html
 Allow: /PRIVACY%20POLICY%20VBS%20PAYROLL.pdf
