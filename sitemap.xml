@@ -1,95 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://vasavebusiness.com/</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>1.0</priority>
+<loc>https://svpucollege.org/</loc>
+<lastmod>2026-06-06T07:56:04+00:00</lastmod>
+<priority>1.00</priority>
 </url>
-
 <url>
-  <loc>https://vasavebusiness.com/about</loc>
-  <priority>0.8</priority>
+<loc>https://svpucollege.org/application_form.html</loc>
+<lastmod>2026-06-06T07:56:04+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://vasavebusiness.com/services</loc>
-  <priority>0.8</priority>
+<loc>https://svpucollege.org/about.html</loc>
+<lastmod>2026-06-06T07:56:04+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://vasavebusiness.com/contact</loc>
-  <priority>0.8</priority>
+<loc>https://svpucollege.org/our_courses.html</loc>
+<lastmod>2026-06-06T07:56:04+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://vasavebusiness.com/privacy-policies</loc>
-  <priority>0.5</priority>
+<loc>https://svpucollege.org/contact.html</loc>
+<lastmod>2026-06-06T07:56:04+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://vasavebusiness.com/terms-and-conditions</loc>
-  <priority>0.5</priority>
+<loc>https://svpucollege.org/Cookies_Policy_SVPU.pdf</loc>
+<lastmod>2026-06-06T07:56:04+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://vasavebusiness.com/services/cloud</loc>
-  <priority>0.6</priority>
+<loc>https://svpucollege.org/PRIVACY_POLICY_SVPU.pdf</loc>
+<lastmod>2026-06-06T07:56:04+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://vasavebusiness.com/services/infrastructure</loc>
-  <priority>0.6</priority>
+<loc>https://svpucollege.org/TERMS_AND_CONDITIONS_SVPU.pdf</loc>
+<lastmod>2026-06-06T07:56:04+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
-<url>
-  <loc>https://vasavebusiness.com/services/cybersecurity</loc>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/services/consultancy</loc>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/services/cloud/google-workspace</loc>
-  <priority>0.5</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/services/infrastructure/kaspersky</loc>
-  <priority>0.5</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/services/cybersecurity/cyber-essentials</loc>
-  <priority>0.5</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/services/cybersecurity/cyber-essentials-plus</loc>
-  <priority>0.5</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/uk-customs</loc>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/uk-customs/consultation</loc>
-  <priority>0.5</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/uk-customs/training</loc>
-  <priority>0.5</priority>
-</url>
-
-<url>
-  <loc>https://vasavebusiness.com/about-us/what-we-stand-for</loc>
-  <priority>0.5</priority>
-</url>
-
 </urlset>
